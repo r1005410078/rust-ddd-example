@@ -1,0 +1,14 @@
+[package]
+name = "clean-arch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.144", features = ["derive"] }
+async-trait = "0.1.81"
+diesel = { version = "2.2.1", features = ["postgres", "r2d2"] }
+dotenv = "0.15.0"
+r2d2 = "0.8.10"
+actix-web = "4.8.0"
+log = "0.4.22"
+env_logger = "0.11.3"
